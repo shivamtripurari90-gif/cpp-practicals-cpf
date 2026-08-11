@@ -128,6 +128,11 @@ int main()
                     cout<<"grade"<<setw(10)<<":"<<"C"<<endl;
                     cout<<"performance"<<setw(4)<<":"<<"needs improvement"<<endl;
                 }
+                else
+                {
+                    cout<<"grade"<<setw(10)<<":"<<"F"<<endl;
+                    cout<<"performnace"<<setw(4)<<":"<<"failed"<<endl;
+                }
                 goto menu;
             }
         end:
