@@ -1,4 +1,4 @@
-#include<iostream>
+>#include<iostream>
 #include<iomanip>
 #include<cstring>
 using namespace std;
@@ -45,7 +45,7 @@ int main()
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                     }
-                    else if(score[i]<80||score[i]=70)
+                    else if(score[i]<80||score[i]>=70)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
 
@@ -123,7 +123,7 @@ int main()
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                     }
-                    else if(score[m]<80||score[m]=70)
+                    else if(score[m]<80||score[m]>=70)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
                     }
@@ -190,7 +190,7 @@ int main()
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A+"<<endl;
                     }
-                    else if(score[i]<80||score[i]=70)
+                    else if(score[i]<80||score[i]>=70)
                     {
                         cout<<"grade"<<setw(10)<<":"<<"A"<<endl;
 
